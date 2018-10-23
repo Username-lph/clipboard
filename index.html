@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>欢迎访问本网站</title>
+		<link type="text/css" rel="stylesheet" href="./css/lxwd.css">
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/Clipboard.min.js"></script>
+		<script type="text/javascript" src="./js/lxwd.js"></script>
+		<script src="js/holder-2.7.1.js"></script>
+	</head>
+
+	<body>
+		<h1 class="h1">Clipboard</h1>
+		<!--wx_copy s-->
+		<div class="fiex_box">
+	        <div class="box_img">
+	            <img class="head_img" src="images/3.jpg">
+	        </div>
+	        <div class="wx_name">
+	            <span>张三:</span>
+	            <!-- <a href="weixin://" style="text-decoration: none;"></a> -->
+	            <span class="wx" name="notweixin" id="content" onclick="copyUrl2()">
+	            	88885555
+	            </span>
+	            <br>
+	            <span >点击微信添加好友</span>
+	        </div>
+    	</div>
+    	<!--wx_copy e-->
+    	
+		<!--wx_exit s-->
+	    <div class="wx_exit" id="copysuccess">
+	        <div class="wx_exit_bg">
+	            <div class="wx_exit_container">
+	                <p class="wx_exit_reveal">
+	                    微信号复制成功，去打开微信加好友
+	                </p>
+	                <div style="padding:10px;background:#fff;"></div>
+	                <div class="wx_exit_content">
+	                    <a href="javascript:;"
+	                        onclick="openWWW()">确定</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <!--wx_exit e-->
+	</body>
+
+</html>

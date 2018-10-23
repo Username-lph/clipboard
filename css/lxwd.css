@@ -1,0 +1,111 @@
+ /*@import url(reset.css);*/
+ html,
+ body {
+ 	max-width: 720px;
+ 	margin: 0px auto;
+ }
+ .h1{
+ 	padding:15px;
+ 	font-size:20px;
+ 	font-weight:bolder;
+ 	border-bottom:1px solid #c3c3c3;
+ 	margin-bottom:15px;
+ }
+ .fiex_box {
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: nowrap;
+ 	/*position: fixed;
+ 	top: 50px;
+ 	z-index: 99999;*/
+ 	background-color: #227446;
+ 	max-width: 720px;
+ 	width: 100%;
+ 	height: 100px;
+ 	align-items: center;
+ }
+ 
+ .box_img {
+ 	width: 100px;
+ 	height: 100px;
+ 	text-align: center;
+ 	margin-left: 20px;
+ 	line-height: 100px;
+ 	margin-top:15px;
+ }
+ 
+ .head_img {
+ 	max-width: 80px;
+ 	width: 100%;
+ 	border-radius: 50%;
+ 	border: 2px solid #004787;
+ 	margin-right: 30px;
+ }
+ 
+ .wx_name {
+ 	margin-left: 0 8px;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ }
+ 
+ .wx {
+ 	color: #feff00;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+ .wx span{
+  	display:block;
+  	padding:15px;
+  }
+ /*wx_exit*/
+ 
+ .wx_exit {
+ 	max-width: 640px;
+ 	font: 0.16rem 'microsoft yahei';
+ 	display: none;
+ }
+ 
+ .wx_exit_bg {
+ 	position: fixed;
+ 	z-index: 100;
+ 	top: 0px;
+ 	left: 0px;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: rgba(0, 0, 0, 0.5);
+ }
+ 
+ .wx_exit_container {
+ 	position: fixed;
+ 	top: 30%;
+ 	left: 5%;
+ 	width: 90%;
+ 	z-index: 1100;
+ 	background: #fff;
+ }
+ 
+ .wx_exit_reveal {
+ 	border-radius: 5px 5px 0px 0px;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	background: #fff;
+ }
+ 
+ .wx_exit_content {
+ 	font-size: 0px;
+ 	border-radius: 0px 0px 5px 5px;
+ 	text-align: center;
+ 	border-top: 1px #c4c4c4 solid;
+ }
+ 
+ .wx_exit_content a {
+ 	font-size: 16px;
+ 	width: 49%;
+ 	text-align: center;
+ 	padding: 5px 0px;
+ 	display: inline-block;
+ 	color: #4f40ce;
+ 	text-decoration: none;
+ }
+ 
